@@ -1,5 +1,8 @@
 # Flask Stack Simulator startup template
-
+**Name:** Mikyla A. lanorio
+**Section:** BSIT WMT 4-2
+**Original Repository**  https://github.com/Jackson-Soriano/f1-elec4-stack-simulator-starter.git
+**Description:** Pre-demonstration assignment exploring the Flask Stack Simulator starter template
 This is the unfinished repository for a pre-demo reading activity. Read `Flask_PreDemo_Reading_Activity.pdf` first. 
 
 ## Before the demonstration
