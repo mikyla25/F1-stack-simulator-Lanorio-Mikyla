@@ -1,0 +1,119 @@
+
+/* Main page design */
+body {
+    background: #495579;
+    color: #fff;
+    font: 1rem/1.5 system-ui, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 24px;
+}
+
+a {
+    color: #ffe797;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+/* Simulator layout */
+.simulator {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.simulator section {
+    flex: 1;
+    min-width: 220px;
+    padding: 18px;
+}
+
+/* Operations area */
+.operations {
+    background: #687b8d;
+}
+
+/* Queue display */
+.queue-area {
+    background: #20252c;
+}
+
+/* Removed items area */
+.removed-area {
+    background: #852044;
+}
+
+/* Queue elements */
+.queue-item {
+    background: #1855bd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 12px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+/* Front and Rear labels */
+.queue-item small {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #ffe797;
+}
+
+/* Peek highlight */
+.highlight {
+    background: gold;
+    color: #111;
+    border: 2px solid #fff;
+}
+
+/* Removed elements */
+.removed {
+    background: #a21638;
+}
+
+/* Messages */
+.notice {
+    padding: 12px;
+    background: #e5fff0;
+    color: #143724;
+}
+
+.error {
+    color: #fff0a3;
+}
+
+.notice.error {
+    color: #730e1b;
+    background: #ffe4e8;
+}
+
+/* Input fields */
+input, textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+/* Buttons */
+button, input[type=submit] {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 4px;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
